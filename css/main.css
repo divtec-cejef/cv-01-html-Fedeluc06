@@ -8,20 +8,32 @@ h1 {
 h1:hover {
     background-color:yellow;
 }
+
 body {
-    background-color:slategrey;
+    background-image: url("images/star-wars-death-star-at-at-space-wallpaper-preview.jpg");
+    background-size: 600px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 200px;
 }
+
 #menu li {
     text-align: center;
     list-style: none;
 }
-.therock {
-    width: 150px;
-    border-radius:50px;
-    image-orientation: inherit;
+
+.therock{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow:  1px 1px 8px 10px rgba(3, 1, 4, 1);
 }
 
 .therock:hover {
-    width: 200px;
-    rotate: 180deg;
+    width: 35%;
 }
+
+
+
