@@ -7,7 +7,7 @@ h1 {
     text-align: center;
 }
 h1:hover {
-    background-color:yellow;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-space-universe-banner-background-and-technologymeteorplanetcosmic-banner-image_54036.jpg");
 }
 
 body {
@@ -23,7 +23,7 @@ body {
     width: 30%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: auto;
     border-radius: 50px;
     box-shadow:  1px 1px 8px 10px rgba(3, 1, 4, 1);
 }
@@ -32,5 +32,10 @@ body {
     width: 35%;
 }
 
+a {
+    text-decoration: none;
+}
 
-
+a:hover {
+    color: blueviolet;
+}
